@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+        body {
+            font-family: "Nunito", sans-serif;
+            
+                background-color: #f4f4f4;
+                background: url("home-bg.jpg");
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            h1 {
+                margin-bottom: 10px;
+            }
+            
+            .grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .food-item {
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 2px 10px rgba(36, 5, 5, 0.1);
+                margin: 5px;
+                padding: 10px;
+                text-align: center;
+            }
+            
+            .quantity-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            button {
+                padding: 10px;
+                margin-top: 10px;
+                background-color: #8e2606;
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+            
+            button:hover {
+                background-color: #9b0716;
+            }
+            
+            #cart {
+                margin-top: 20px;
+                margin-left: 20px;
+                padding: 5px;
+                border-style: solid;
+                border-color: #9b0716;
+                border-width: 5px;
+                border-radius: 10px;
+            }
+            
+            #cart-items {
+                list-style-type: none;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
